@@ -4,9 +4,9 @@ test('测试对象相等', () => {
 })
 
 const throwError = () => {
-    throw new Error('this is a new error')
+    throw new Error('this is an new error')
 }
 
 test('toThrow', () => {
-    expect(throwError).toThrow(/this is a new error/)
+    expect(throwError).toThrow(/this is an new error/)
 })
