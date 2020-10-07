@@ -7,6 +7,6 @@ const throwError = () => {
     throw new Error('this is a new error')
 }
 
-test('toThrow',() => {
+test('toThrow1', () => {
     expect(throwError).toThrow(/this is a new error/)
 })
